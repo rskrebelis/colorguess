@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.options-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.option {
+    background-color: #eee;
+    border: none;
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.option:hover {
+    opacity: 0.8;
+}
